@@ -27,7 +27,7 @@ const SideBar = () => (
           and founding team member at{' '}
         <a href="https://www.odysseyai.io">Odyssey AI</a>. Previously, I
         was a lead ai/ml engineer at <a href="https://edfx.com">Moody&apos;s EDFX</a>,
-        lead ml researcher <a href="https://contilab.usc.edu">USC Conti Lab</a>, and worked at{' '}
+        lead ml researcher at <a href="https://contilab.usc.edu">USC Conti Lab</a>, and worked at{' '}
         <a href="https://planet.com">NASA</a>'}
       </p>
       <ul className="actions">
