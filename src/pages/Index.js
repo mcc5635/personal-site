@@ -31,6 +31,11 @@ const Index = () => (
       </p>
       <p>
         {' '}
+        Also, we're building the first geodesic dome community for veterans on Earth by 2030.{' '}
+        <a href="https://veteransdomevillage.com">here</a>.
+      </p>
+      <p>
+        {' '}
         Depreciated Site{' '}
         <a href="https://mikechase.xyz">here</a>.
       </p>
