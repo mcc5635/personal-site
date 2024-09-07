@@ -6,34 +6,33 @@ import Main from '../layouts/Main';
 const Index = () => (
   <Main
     description={
-      "Michael D'Angelo's personal website. New York based Stanford ICME graduate, "
-      + 'VP of Engineering at Smile Identity, co-founder of Arthena and Matroid, and YC Alumni.'
+      "Michael Chase's personal website"
     }
   >
     <article className="post" id="index">
       <header>
         <div className="title">
           <h2>
-            <Link to="/">About this site</Link>
+            <Link to="/">Michael Chase</Link>
           </h2>
           <p>
-            A beautiful, responsive, statically-generated, react application
-            written with modern Javascript.
+            Hey, I'm Michael. I grew up in Pennsylvania near the first oil well on Earth, and have been passionate about energy & biotech from a young age. I have spent my life working across machine learning (remote sensing, markov chain monte carlo, recurrent neural networks, vision transformers), 
+            energy systems (climate loss forecasting, extreme weather, weather derivative pricing, policy sentiment), and biotech (foundation models, polygenic risk scores, clinical trials, food systems).
           </p>
         </div>
       </header>
       <p>
         {' '}
-        Welcome to my website. Please feel free to read more{' '}
-        <Link to="/about">about me</Link>, or you can check out my{' '}
-        <Link to="/resume">resume</Link>, <Link to="/projects">projects</Link>,{' '}
-        view <Link to="/stats">site statistics</Link>, or{' '}
+        You can find me elsewhere on {' '}
+        <Link to="https://x.com/mikechase_">X</Link>, 
+        <Link to="https://www.linkedin.com/in/michael-chase-57a0b5182/">LinkedIn</Link>,
+        <Link to="https://github.com/mcc5635">Github</Link>, or{' '}
         <Link to="/contact">contact</Link> me.
       </p>
       <p>
         {' '}
-        Source available{' '}
-        <a href="https://github.com/mldangelo/personal-site">here</a>.
+        Depreciated Site{' '}
+        <a href="https://mikechase.xyz">here</a>.
       </p>
     </article>
   </Main>
