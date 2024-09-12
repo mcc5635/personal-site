@@ -1,47 +1,57 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
-    desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+    title: 'Cancer Disparities Navigator',
+    subtitle: '',
+    date: '2022-10-20',
+    image: '/images/projects/cancerdisparities.png',
+    desc: '',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
-    desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+    title: 'Temperature Derivative Pricing',
+    subtitle: '',
+    link: 'https://github.com/mcc5635/weather-derivative-contracts',
+    image: '/images/projects/weatherderivative.png',
+    date: '2024-06-20',
+    desc: '',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
-    desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+    title: 'Label Freedom: Stable Diffusion for Remote Sensing Image Semantic Segmentation Data Generation',
+    subtitle: '',
+    link: 'https://ieeexplore.ieee.org/document/10386381',
+    image: '/images/projects/remote-sensing.png',
+    date: '2023-08-20',
+    desc: '',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
-    desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+    title: 'scGPT: A Foundation Model for Single-Cell Multi-omics',
+    subtitle: '',
+    date: '2023-11-15',
+    image: '/images/projects/scgpt.png',
+    desc: '',
+  },
+  {
+    title: 'Fahrenheit Black',
+    subtitle: '',
+    link: 'https://github.com/mcc5635/fahrenheitblack',
+    date: '2023-04-01',
+    image: '/images/projects/algorithm.png',
+    desc: '',
+  },
+  {
+    title: 'Energy Ring',
+    subtitle: '',
+    link: 'https://energyring.xyz',
+    image: '/images/projects/energyring.jpeg',
+    date: '2024-02-01',
+    desc: '',
+  },
+  {
+    title: 'Autonomous UAVs for Crop Yield Detection with PG4 Autopilot',
+    subtitle: '',
+    link: 'https://energyring.xyz',
+    image: '/images/projects/uav.png',
+    date: '2024-07-01',
+    desc: '',
   },
 ];
 

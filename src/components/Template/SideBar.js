@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom';
 
 import ContactIcons from '../Contact/ContactIcons';
 
-const { PUBLIC_URL } = process.env; // set automatically from package.json:homepage
+// add PUBLIC_URL for deployment needs
 
 const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`images/me.jpg`} alt="" />
+        <img src="images/me2.jpeg" alt="" />
       </Link>
       <header>
         <h2>Michael Chase</h2>
@@ -23,12 +23,11 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">USC MS Biostats</a> graduate, NASA Scientist, 
-          and founding team member at{' '}
-        <a href="https://www.odysseyai.io">Odyssey AI</a>. Previously, I
-        was a lead ai/ml engineer at <a href="https://edfx.com">Moody&apos;s EDFX</a>,
-        lead ml researcher at <a href="https://contilab.usc.edu">USC Conti Lab</a>, and worked at{' '}
-        <a href="https://planet.com">NASA</a>'}
+        <a href="https://usc.edu/"><strong>USC MS Biostats</strong></a> graduate, <strong>NASA</strong> Scientist, and
+        founder at <a href="https://www.122longevity.com"><strong>122 Longevity</strong></a>.
+        Previously, I was a lead ai/ml engineer at <a href="https://edfx.com"><strong>Moody&apos;s EDFX</strong></a>,
+        lead data scientist at{' '}<a href="https://contilab.usc.edu"><strong>USC Conti Lab</strong></a>, and
+        co-founder of {' '}<a href="https://darwincloud.xyz"><strong>Darwin</strong></a>.
       </p>
       <ul className="actions">
         <li>
@@ -48,7 +47,7 @@ const SideBar = () => (
     <section id="footer">
       <ContactIcons />
       <p className="copyright">
-        &copy; Michael Chase <Link to="/">mikechase.com</Link>.
+        &copy; Michael Chase <Link to="/">mikecchase.com</Link>.
       </p>
     </section>
   </section>
