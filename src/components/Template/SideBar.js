@@ -23,7 +23,7 @@ const SideBar = () => (
       <h2>About</h2>
       <p>
         Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://usc.edu/"><strong>USC MS Biostats</strong></a> graduate, <strong>NASA</strong> Scientist, and
+        <a href="https://usc.edu/"><strong>USC MS Biostats</strong></a> graduate, <strong><a href="https://www.nasa.gov/">NASA</strong> Scientist, and
         founder at <a href="https://www.122longevity.com"><strong>122 Longevity</strong></a>.
         Previously, I was a lead ai/ml engineer at <a href="https://edfx.com"><strong>Moody&apos;s EDFX</strong></a>,
         lead data scientist at{' '}<a href="https://contilab.usc.edu"><strong>USC Conti Lab</strong></a>, and
