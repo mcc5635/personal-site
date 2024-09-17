@@ -30,7 +30,7 @@ const SideBar = () => (
         lead data scientist at{' '}<a href="https://contilab.usc.edu"><strong>USC Conti Lab</strong></a>, and
         co-founder of{' '}<a href="https://darwincloud.xyz"><strong>Darwin</strong></a> and <a href="https://biofusionlabs.co"><strong>Biofusion Labs.</strong></a>
 
-        {' '}Contact for <a href="https://cofractional.com"><strong>Fractional CTO</strong> services</a>.
+        {' '}Contact for <a href="https://cofractional.com"><strong>Fractional CTO</strong></a>services.
       </p>
       <ul className="actions">
         <li>
