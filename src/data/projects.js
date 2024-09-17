@@ -7,6 +7,14 @@ const data = [
     desc: '',
   },
   {
+    title: 'Neural Headset Concept',
+    subtitle: '',
+    link: 'https://github.com/mcc5635/weather-derivative-contracts',
+    image: '/images/projects/weatherderivative.png',
+    date: '2024-06-20',
+    desc: '',
+  },
+  {
     title: 'Temperature Derivative Pricing',
     subtitle: '',
     link: 'https://github.com/mcc5635/weather-derivative-contracts',

@@ -13,7 +13,7 @@ const Index = () => (
           <p>
             Hey, I&apos;m Michael. I grew up near the first oil well on Earth, passionate about
             energy & biotech from a young age. I have spent my life working across biotech
-            (longevity, foundation models, polygenic risk scores, clinical trials, food systems),
+            (longevity, foundation models, polygenic risk scores, clinical trials, neural implants),
             machine learning (remote sensing, Markov chain Monte Carlo, recurrent neural networks,
             vision transformers), and energy systems (climate loss forecasting, extreme weather,
             weather derivative pricing, policy sentiment).
